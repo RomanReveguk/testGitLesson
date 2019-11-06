@@ -25,22 +25,22 @@ public class Matrix {
 		}
 		
 		
-	
-		    public int[][] rotate(int[][] array){
-		 
-		        int[][] rotateArray = array;
-		        int[][] tempArray = new int[][];
-		 
-		        for (int i = 0; i < rotateArray.length; i++ ){
-		 
-		            for (int j = 0; j < rotateArray.length; j++){
-		 
-		                tempArray[i][j] = rotateArray[j][i];
-		            }
-		        }
-		 
-		        return rotateArray;
-		    }
+//	
+//		    public int[][] rotate(int[][] array){
+//		 
+//		        int[][] rotateArray = array;
+//		        int[][] tempArray = new int[][];
+//		 
+//		        for (int i = 0; i < rotateArray.length; i++ ){
+//		 
+//		            for (int j = 0; j < rotateArray.length; j++){
+//		 
+//		                tempArray[i][j] = rotateArray[j][i];
+//		            }
+//		        }
+//		 
+//		        return rotateArray;
+//		    }
 		
 
 //		// min i max po stroke
